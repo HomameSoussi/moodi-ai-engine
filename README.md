@@ -9,6 +9,7 @@
 
 **MOODI** transforms user moods into empathetic reflections with actionable micro-coaching suggestions. Built with AI, gamification, and multilingual support for emotional wellness.
 
+
 ---
 
 ## ✨ Features
