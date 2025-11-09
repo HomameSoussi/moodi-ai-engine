@@ -274,14 +274,18 @@ curl -X POST http://localhost:8000/api/reflection \
 
 ## 🚢 Deployment
 
-### Option 1: Vercel (Next.js)
+### Option 1: Vercel (Recommended)
+
+**Quick Deploy:**
+1. Connect your GitHub repository to Vercel
+2. Add `OPENAI_API_KEY` environment variable
+3. Deploy automatically
+
+**Detailed Guide:** See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)
 
 ```bash
-# Install dependencies
-npm install openai
-
-# Deploy
-vercel deploy
+# Or deploy via CLI
+vercel --prod
 ```
 
 ### Option 2: Railway/Render (FastAPI)
